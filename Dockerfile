@@ -5,7 +5,8 @@ WORKDIR /opt/bitwarden
 
 #RUN mkdir ${BTW}
 RUN chmod -R 700 ${BTW}
-RUN curl -Lso "bitwarden.sh" "https://func.bitwarden.com/api/dl/?app=self-host&platform=linux" 
+#RUN curl -Lso "bitwarden.sh" "https://func.bitwarden.com/api/dl/?app=self-host&platform=linux" 
+ADD bitwarden.sh .
 RUN chmod 700 bitwarden.sh
 RUN ./bitwarden.sh install
 

@@ -1,4 +1,6 @@
 # bitwarden-op
+## Estado actual
+**2/11/2023: SE INTENTÓ REALIZAR EL DOCKER FILE PARA INSTALAR EN OPENSHIFT PERO SE DEBE MODIFICAR EL ARCHIVO "run.sh" YA QUE ESTE UTILIZA COMANDO DE DOCKER. QUEDA PARA REALIZAR LA MODIFICACIÓN A FUTURO**  
 
 ## Sobre el proyecto
 Este proyecto tiene como objetivo generar un instalación de la aplicación Bitwarden en una modalidad de microservicio en OpenShift a traves de un archivo DockerFile.
